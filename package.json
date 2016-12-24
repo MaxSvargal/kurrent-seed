@@ -9,7 +9,7 @@
     "seed": "node ./index.js",
     "seed-nat": "node ./seed-nat.js",
     "pusher": "node ./pusher.js",
-    "start": "npm run seed",
+    "start": "npm run seed"
   },
   "dependencies": {
     "kad": "^1.6.4",
