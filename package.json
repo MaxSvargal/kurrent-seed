@@ -6,8 +6,7 @@
   "author": "MaxSvargal <maxsvargal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "seed": "node ./index.js",
-    "postbuild": "npm run seed"
+    "start": "node ./index.js"
   },
   "dependencies": {
     "kad": "^1.6.4",
