@@ -3,7 +3,7 @@ const traverse = require('kad-traverse')
 const zlib = require('zlib')
 
 const cb = () => {}
-const address = { address: '127.0.0.1', port: 1330 }
+const address = { address: '127.0.0.1', port: 80 }
 const transportProps = {
   traverse: {
     upnp: { forward: 1330, ttl: 6000 },
