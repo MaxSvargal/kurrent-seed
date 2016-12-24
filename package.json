@@ -1,0 +1,16 @@
+{
+  "name": "kurrent-seed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MaxSvargal/kurrent-seed.git",
+  "author": "MaxSvargal <maxsvargal@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "seed": "node ./index.js",
+    "postbuild": "npm run seed"
+  },
+  "dependencies": {
+    "kad": "^1.6.4",
+    "kad-traverse": "0.0.4"
+  }
+}
