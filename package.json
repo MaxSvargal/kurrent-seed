@@ -6,8 +6,10 @@
   "author": "MaxSvargal <maxsvargal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./index.js",
-    "pusher": "node ./pusher.js"
+    "seed": "node ./index.js",
+    "seed-nat": "node ./seed-nat.js",
+    "pusher": "node ./pusher.js",
+    "start": "npm run seed",
   },
   "dependencies": {
     "kad": "^1.6.4",
