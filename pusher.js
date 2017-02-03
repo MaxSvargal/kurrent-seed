@@ -15,20 +15,20 @@ const dht = new kad.Node({
   storage: kad.storage.MemStore()
 })
 
-dht.connect({ address: '127.0.0.1', port: 1330 }, cb)
+dht.connect({ address: '109.95.74.245', port: 1333 }, cb)
 
 const pushTopic = () => {
   const currentTime = new Date().getTime()
   const key = crypto.createHash('sha1').update(currentTime.toString()).digest('hex')
   const topic = {
     key,
-    title: `Generated title at ${currentTime} #${key}`,
-    header: `Generated #${key}`,
+    name: `Generated title at ${currentTime} for #${key}`,
+    keywords: `Generated keywords for #${key}`,
     desc: `Generated description for #${key}`,
     tags: [ key ],
     created: currentTime,
     updated: null,
-    magnet: 'magnet:?xt=urn:ed2k:31D6CFE0D16AE931B73C59D7E0C089C0&xl=0&dn=zero_len.fil&xt=urn:bitprint:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ.LWPNACQDBZRYXW3VHJVCJ64QBZNGHOHHHZWCLNQ&xt=urn:md5:D41D8CD98F00B204E9800998ECF8427E&dn'
+    magnetURI: 'magnet:?xt=urn:ed2k:31D6CFE0D16AE931B73C59D7E0C089C0&xl=0&dn=zero_len.fil&xt=urn:bitprint:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ.LWPNACQDBZRYXW3VHJVCJ64QBZNGHOHHHZWCLNQ&xt=urn:md5:D41D8CD98F00B204E9800998ECF8427E&dn'
   }
   zlib.deflateRaw(toBuffer(topic), (err, buffer) =>
     dht.put(key, buffer.toString('base64'), cb))
