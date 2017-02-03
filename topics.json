@@ -10,10 +10,14 @@
       "#math_metal",
       "#progressive_metal"
     ],
+    "files": [{
+      "name": "first.file",
+      "length": 192348293,
+      "offset": 0
+    }],
+    "length": 192348293,
     "created": 1482366017955,
     "updated": 1482366025578,
-    "likes": 3,
-    "dislikes": 1,
     "pic": "https://dl.dropboxusercontent.com/u/931817/otagai-heart.png",
     "magnetURI": "magnet:?xt=urn:btih:b482ecc23e6539ad99f7a9582a9e3e71f15eb732&dn=Exxxtrasmall+-Sweet+Little+Treats+-+Cara+Stone+%5B1080p%5D.mp4&tr=udp%3A//tracker.leechers-paradise.org%3A6969&tr=udp%3A//zer0day.ch%3A1337&tr=udp%3A//open.demonii.com%3A1337&tr=udp%3A//tracker.coppersurfer.tk%3A6969&tr=udp%3A//exodus.desync.com%3A6969"
   },
@@ -28,10 +32,14 @@
       "#punk",
       "#celtic"
     ],
+    "files": [{
+      "name": "first.file",
+      "length": 192348293,
+      "offset": 0
+    }],
+    "length": 192348293,
     "created": 1482366032420,
     "updated": 1482366037716,
-    "likes": 3,
-    "dislikes": 1,
     "pic": "https://dl.dropboxusercontent.com/u/931817/34125243516.jpg",
     "magnetURI": "magnet:?xt=urn:btih:b482ecc23e6539ad99f7a9582a9e3e71f15eb732&dn=Exxxtrasmall+-Sweet+Little+Treats+-+Cara+Stone+%5B1080p%5D.mp4&tr=udp%3A//tracker.leechers-paradise.org%3A6 969&tr=udp%3A//zer0day.ch%3A1337&tr=udp%3A//open.demonii.com%3A1337&tr=udp%3A//tracker.coppersurfer.tk%3A6969&tr=udp%3A//exodus.desync.com%3A6969"
   },
@@ -45,10 +53,14 @@
       "#ambient",
       "#ritual"
     ],
+    "files": [{
+      "name": "first.file",
+      "length": 192348293,
+      "offset": 0
+    }],
+    "length": 192348293,
     "created": 1482365986356,
     "updated": 1482366000260,
-    "likes": 10,
-    "dislikes": 2,
     "pic": "https://dl.dropboxusercontent.com/u/931817/op.jpg",
     "magnetURI": "magnet:?xt=urn:btih:b482ecc23e6539ad99f7a9582a9e3e71f15eb732&dn=Exxxtrasmall+-Sweet+Little+Treats+-+Cara+Stone+%5B1080p%5D.mp4&tr=udp%3A//tracker.leechers-paradise.org%3A6969&tr=udp%3A//zer0day.ch%3A1337&tr=udp%3A//open.d emonii.com%3A1337&tr=udp%3A//tracker.coppersurfer.tk%3A6969&tr=udp%3A//exodus.desync.com%3A6969"
   }
