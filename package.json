@@ -1,12 +1,12 @@
 {
   "name": "kurrent-seed",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "https://github.com/MaxSvargal/kurrent-seed.git",
   "author": "MaxSvargal <maxsvargal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "seed": "node ./index.js",
+    "seed": "node ./seed.js",
     "seed-nat": "node ./seed-nat.js",
     "pusher": "node ./pusher.js",
     "start": "npm run seed"
