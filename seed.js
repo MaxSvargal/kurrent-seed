@@ -12,7 +12,7 @@ const dht = new kad.Node({ transport, storage })
 const toBuffer = obj => new Buffer(JSON.stringify(obj), 'utf8')
 
 const searchIndex = Object.keys(topics).reduce((obj, id) =>
-  Object.assign({}, obj, { [id]: topics[id].title }), {})
+  Object.assign({}, obj, { [id]: topics[id].keywords }), {})
 
 zlib.deflateRaw(toBuffer(searchIndex), (err, buffer) =>
   dht.put('searchIndex', buffer.toString('base64'), cb))

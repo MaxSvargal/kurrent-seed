@@ -20,7 +20,7 @@ const storage = kad.storage.MemStore()
 const dht = new kad.Node({ transport, storage })
 
 const searchIndex = Object.keys(topics).reduce((obj, id) =>
-  Object.assign({}, obj, { [id]: topics[id].title }), {})
+  Object.assign({}, obj, { [id]: topics[id].keywords }), {})
 
 const toBuffer = obj => new Buffer(JSON.stringify(obj), 'utf8')
 
