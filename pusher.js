@@ -15,7 +15,7 @@ const dht = new kad.Node({
   storage: kad.storage.MemStore()
 })
 
-dht.connect({ address: '109.95.74.245', port: 1333 }, cb)
+dht.connect({ address: '127.0.0.1', port: 1330 }, cb)
 
 const pushTopic = () => {
   const currentTime = new Date().getTime()
